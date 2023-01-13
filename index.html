@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Waleed Tarbosh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU  -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Waleed</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Home" onclick="select()">Home</a></li>
+                    <li><a href="#AboutMe" onclick="select()">About Me</a></li>
+                    <li><a href="#skills" onclick="select()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="select()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- section Home -->
+    <section id="Home" class="Home">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Waleed Tarbosh</h1>
+            <h2>Computer Systems Engineer <br>Junior Front End Developer </h2>
+            <div class="networks">
+                <a href="https://www.facebook.com/waleedtarbush"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/waleedtarbosh"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/waleedtarbosh/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/waleedtarbosh"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section AboutMe -->
+    <section id="AboutMe" class="AboutMe">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>HI THERE !, I'm Waleed Tarbosh. </span>  I am a fresh graduate from computer systems engineering major . I work daily to develop my skills to become full stack  during the coming period. </p>
+
+            <div class="row">
+                <!-- Personal Data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            28-05-1998
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            waleedtarbush@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Palestine ,Nablus.
+                        </li>
+                        <li>
+                            <strong>Experience</strong>
+                            <span>Front End</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interest">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>I phone</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- section SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- HARD SKILLS -->
+                <div class="col">
+                    <h3>HARD SKILLS</h3>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>git-and-Github</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redux</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOFT SKILLS -->
+                <div class="col">
+                    <h3>SOFT SKILLS</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SelfStudy</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ProjectManagement</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Resume</h2>
+            <div class="row">
+                <div class="col leftt">
+                    <h3>Education</h3>
+                    <div class="item left">
+                        <h4>Computer Systems Engineering</h4>
+                        <span class="place">Arab American University.</span>
+                        <span class="date">2018 - 2022</span>
+                        <p>I have completed all requirements for the Computer Systems Engineering major in 2022.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col rightt">
+                    <h3>Work experience</h3>
+                    <div class="item right">
+                        <h4>Front Developer Training </h4>
+                        <span class="place">ASAL Technologies</span>
+                        <span class="date">11/9/2022 - 27/10/2022 </span>
+                        <p>Certificate in Front-End React.js , representing approximately 300 hours of coursework.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>TimeZone</h3>
+                        <p>HTML & CSS</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Medical Center</h3>
+                        <p>HTML & CSS</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>portfolio</h3>
+                        <p>HTML & CSS & Bootstrap </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section contact -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Telephone number">
+                    <input type="text" placeholder="E-mail address">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Map -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Palestine ,Nablus.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call us at: +0000000000 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: waleedtarbush@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+<footer>
+    <a href="#Home" class="above">
+   
+            <i class="fa-solid fa-angles-up"></i>
+        </a> 
+    <div class="content-banner">
+        <div class="networks">
+            <a href="https://www.facebook.com/waleedtarbush"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/waleedtarbosh"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/waleedtarbosh/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/waleedtarbosh"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
